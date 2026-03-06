@@ -47,3 +47,11 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Files in src created by R markdown
+src/*.html
+src/*.pdf
+
+# Mac OS X
+.DS_Store
+
