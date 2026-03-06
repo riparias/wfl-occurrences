@@ -1,0 +1,16 @@
+soort,include,kingdom,scientific_name,taxon_rank
+Aziatische hoornaar,FALSE,Animalia,Vespa velutina,species
+Bruine rat,TRUE,Animalia,Rattus norvegicus,species
+Bruine rat bak/buis,TRUE,Animalia,Rattus norvegicus,species
+Grote Waternavel,TRUE,Plantae,Hydrocotyle ranunculoides,species
+Japanse Duizendknoop,TRUE,Plantae,Reynoutria japonica,species
+Mantsjoerese wilde rijst,TRUE,Plantae,Zizania latifolia,species
+Moerasaronskelk,TRUE,Plantae,Lysichiton americanus,species
+Muskusrat,TRUE,Animalia,Ondatra zibethicus,species
+Neerhofdier(en),FALSE,Animalia,,
+Parelvederkruid,TRUE,Plantae,Myriophyllum aquaticum,species
+Reuzenbalsemien,TRUE,Plantae,Impatiens glandulifera,species
+Reuzenberenklauw,TRUE,Plantae,Heracleum mantegazzianum,species
+Watercrassula,TRUE,Plantae,Crassula helmsii,species
+Waterteunisbloem,TRUE,Plantae,Ludwigia,genus
+Zwerfkatten,FALSE,Animalia,Felis catus,species
