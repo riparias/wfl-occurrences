@@ -1,0 +1,31 @@
+﻿input_value,mapped_value,in_dataset
+Actieve kooi (aantal),cage,FALSE
+Andere,other,FALSE
+Andere (aantal ),other,FALSE
+Andere (aantal),other,FALSE
+Bak/buis geplaatst (aantal),bins and tubes,TRUE
+Bakken en buizen,bins and tubes,FALSE
+Chemische bestrijding,chemical control,FALSE
+Conibearklem,conibear trap,FALSE
+Conibearklem (aantal),conibear trap,TRUE
+Fuik (aantal),fyke,TRUE
+Fuiken,fyke,FALSE
+Grondklem,clamp,FALSE
+Grondklem (aantal),clamp,TRUE
+Klem (aantal),clamp,TRUE
+Klem bruine rat,clamp,FALSE
+Klemvlot (aantal),clamp,TRUE
+Lokaasklem,clamp,FALSE
+Lokaasklem (aantal),clamp,TRUE
+Lokvogel (aantal),decoy,FALSE
+Materiaal verdwenen/kapot (aantal),,TRUE
+Multitrap (actief),trap,FALSE
+Multitrap (niet actief),trap,FALSE
+Niet actieve kooi (aantal),cage,FALSE
+Opvolging,,FALSE
+Schijnduiker (Aantal),,TRUE
+Slagnet (aantal),net,FALSE
+Vangkooi,cage,FALSE
+Vangkooi (aantal),cage,FALSE
+Verdwenen,,FALSE
+Wildcamera (aantal),camera trap,FALSE
