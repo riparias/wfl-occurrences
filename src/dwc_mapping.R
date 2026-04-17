@@ -13,7 +13,7 @@ occurrence <-
     license = "CC0-1.0",
     rightsHolder = "Province West Flanders",
     datasetID = NA_character_,
-    institutionCode	= "RATO",
+    institutionCode	= "Province West Flanders",
     datasetName	= "Management actions in West Flanders, Belgium",
     basisOfRecord	= "HumanObservation",
     occurrenceID = global_id,
