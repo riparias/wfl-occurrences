@@ -1,0 +1,71 @@
+on:
+  schedule:
+  - cron: "0 3 */7 * *" # At 3 am every 7th day of month
+  push:
+    branches:
+    - main
+    paths:
+    - src/*
+  workflow_dispatch:
+
+name: Update data
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    env:
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache: true
+          needs: check
+          install-pandoc: false # No Rmd
+
+      - name: Get the latest data
+        env:
+          RATO_USER: ${{ secrets.RATO_USER }}
+          RATO_PWD: ${{ secrets.RATO_PWD }}
+          RATO_API_CAPACITY: 1500
+        run: |
+          source("src/get_data.R")
+        shell: Rscript {0}
+
+      - name: Map data to Darwin Core
+        run: |
+          source("src/dwc_mapping.R")
+        shell: Rscript {0}
+
+      - name: Commit and push changes
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          commit_message: "[AUTO] Update data"
+          target_branch: automatic-update
+          add_timestamp: true
+
+      - name: Get branch name
+        run: |
+          git branch --show-current
+
+      - name: Create pull request
+        uses: devops-infra/action-pull-request@v1.0.2
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          target_branch: main
+          title: "[AUTO] Update data"
+          template: .github/PULL_REQUEST_TEMPLATE_AUTO.md
+          reviewer: LienReyserhove
+          label: automated workflow
+          get_diff: false
