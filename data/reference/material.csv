@@ -1,31 +1,31 @@
-﻿input_value,mapped_value,in_dataset
-Actieve kooi (aantal),cage,FALSE
-Andere,other,FALSE
-Andere (aantal ),other,FALSE
-Andere (aantal),other,FALSE
-Bak/buis geplaatst (aantal),bins and tubes,TRUE
-Bakken en buizen,bins and tubes,FALSE
-Chemische bestrijding,chemical control,FALSE
-Conibearklem,conibear trap,FALSE
-Conibearklem (aantal),conibear trap,TRUE
-Fuik (aantal),fyke,TRUE
-Fuiken,fyke,FALSE
-Grondklem,clamp,FALSE
-Grondklem (aantal),clamp,TRUE
-Klem (aantal),clamp,TRUE
-Klem bruine rat,clamp,FALSE
-Klemvlot (aantal),clamp,TRUE
-Lokaasklem,clamp,FALSE
-Lokaasklem (aantal),clamp,TRUE
-Lokvogel (aantal),decoy,FALSE
-Materiaal verdwenen/kapot (aantal),,TRUE
-Multitrap (actief),trap,FALSE
-Multitrap (niet actief),trap,FALSE
-Niet actieve kooi (aantal),cage,FALSE
-Opvolging,,FALSE
-Schijnduiker (Aantal),,TRUE
-Slagnet (aantal),net,FALSE
-Vangkooi,cage,FALSE
-Vangkooi (aantal),cage,FALSE
-Verdwenen,,FALSE
-Wildcamera (aantal),camera trap,FALSE
+input_value,mapped_value
+Actieve kooi (aantal),cage
+Andere,other
+Andere (aantal ),other
+Andere (aantal),other
+Bak/buis geplaatst (aantal),bins and tubes
+Bakken en buizen,bins and tubes
+Chemische bestrijding,chemical control
+Conibearklem,conibear trap
+Conibearklem (aantal),conibear trap
+Fuik (aantal),fyke
+Fuiken,fyke
+Grondklem,clamp
+Grondklem (aantal),clamp
+Klem (aantal),clamp
+Klem bruine rat,clamp
+Klemvlot (aantal),clamp
+Lokaasklem,clamp
+Lokaasklem (aantal),clamp
+Lokvogel (aantal),decoy
+Materiaal verdwenen/kapot (aantal),
+Multitrap (actief),trap
+Multitrap (niet actief),trap
+Niet actieve kooi (aantal),cage
+Opvolging,
+Schijnduiker (Aantal),
+Slagnet (aantal),net
+Vangkooi,cage
+Vangkooi (aantal),cage
+Verdwenen,
+Wildcamera (aantal),camera trap
