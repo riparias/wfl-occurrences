@@ -32,7 +32,7 @@ This repository contains the functionality to standardize the management actions
 ## Published dataset
 
 * [Dataset on the IPT](https://ipt.inbo.be/resource?r=wfl-occurrences)
-* [Dataset on GBIF](#)
+* [Dataset on GBIF](https://doi.org/10.15468/hbnzww)
 
 ## Repo structure
 

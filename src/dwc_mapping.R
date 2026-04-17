@@ -12,7 +12,7 @@ occurrence <-
     type = "Event",
     license = "CC0-1.0",
     rightsHolder = "Province West Flanders",
-    datasetID = NA_character_,
+    datasetID = "https://doi.org/10.15468/hbnzww",
     institutionCode	= "Province West Flanders",
     datasetName	= "Management actions in West Flanders, Belgium",
     basisOfRecord	= "HumanObservation",
