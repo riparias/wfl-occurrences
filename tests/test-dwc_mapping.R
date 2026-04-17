@@ -70,7 +70,7 @@ test_that("samplingProtocol has expected material values", {
     tidyr::separate_wider_delim(
       samplingProtocol,
       delim = " | ",
-      names = c("samp_1", "samp_2", "samp_3"), # Assume max 3
+      names = c("samp_1", "samp_2", "samp_3", "samp_4"), # Assume max 3
       too_few = "align_start",
       too_many = "merge",
       cols_remove = TRUE
@@ -92,6 +92,7 @@ test_that("samplingProtocol has expected material values", {
 
 test_that("scientificName has expected values", {
   expected_species <- c(
+    "Branta canadensis",
     "Heracleum mantegazzianum",
     "Hydrocotyle ranunculoides",
     "Impatiens glandulifera",
