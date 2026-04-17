@@ -4,11 +4,11 @@
 [![run-tests](https://github.com/riparias/wfl-occurrences/actions/workflows/run-tests.yaml/badge.svg)](https://github.com/riparias/wfl-occurrences/actions/workflows/run-tests.yaml)
 <!-- badges: end -->
 
-# RATO - Daily operations commissioned by the province West Flanders, Belgium
+# Management actions in West Flanders, Belgium
 
 ## Rationale
 
-This repository contains the functionality to standardize the daily operations by [RATO vzw](https://oost-vlaanderen.be/wonen-en-leven/natuur-en-milieu/overlastsoorten/rattenbestrijding-.html) to a Darwin Core occurrence dataset that can be harvested by a GBIF IPT.
+This repository contains the functionality to standardize the management actions by Province West Flanders to a Darwin Core occurrence dataset that can be harvested by a GBIF IPT.
 
 ## Workflow
 
@@ -32,7 +32,7 @@ This repository contains the functionality to standardize the daily operations b
 ## Published dataset
 
 * [Dataset on the IPT](https://ipt.inbo.be/resource?r=wfl-occurrences)
-* [Dataset on GBIF](https://doi.org/10.15468/fw2rbx)
+* [Dataset on GBIF](#)
 
 ## Repo structure
 

@@ -11,13 +11,13 @@ occurrence <-
     .keep = "none",
     type = "Event",
     license = "CC0-1.0",
-    rightsHolder = "RATO",
+    rightsHolder = "Province West Flanders",
     datasetID = NA_character_,
     institutionCode	= "RATO",
-    datasetName	= "RATO - Daily operations commissioned by the province West Flanders, Belgium",
+    datasetName	= "Management actions in West Flanders, Belgium",
     basisOfRecord	= "HumanObservation",
     occurrenceID = global_id,
-    recordedBy = "RATO",
+    recordedBy = "Province West Flanders",
     # No reliable data for individualCount
     occurrenceStatus = "present",
     eventID = global_id, # Alternatively objectid
