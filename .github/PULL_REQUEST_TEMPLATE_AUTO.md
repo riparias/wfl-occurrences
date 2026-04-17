@@ -1,4 +1,4 @@
-This pull request was created by the [Update data](https://github.com/riparias/rato-occurrences/actions/workflows/update-data.yaml) **GitHub Action**. See the [README](https://github.com/riparias/rato-occurrences?tab=readme-ov-file#workflow) to understand the workflow.
+This pull request was created by the [Update data](https://github.com/riparias/wfl-occurrences/actions/workflows/update-data.yaml) **GitHub Action**. See the [README](https://github.com/riparias/wfl-occurrences?tab=readme-ov-file#workflow) to understand the workflow.
 
 As a reviewer, please:
 

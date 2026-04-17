@@ -35,9 +35,9 @@ jobs:
 
       - name: Get the latest data
         env:
-          RATO_USER: ${{ secrets.RATO_USER }}
-          RATO_PWD: ${{ secrets.RATO_PWD }}
-          RATO_API_CAPACITY: 1500
+          WFL_USER: ${{ secrets.WFL_USER }}
+          WFL_PWD: ${{ secrets.WFL_PWD }}
+          WFL_API_CAPACITY: 1500
         run: |
           source("src/get_data.R")
         shell: Rscript {0}
