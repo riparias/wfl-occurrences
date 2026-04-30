@@ -139,17 +139,34 @@ material <- readr::read_csv(
   here::here("data", "reference", "material.csv"),
   show_col_types = FALSE
 )
-mapped_material <- as.character(dplyr::pull(material, mapped_value))
-names(mapped_material) <- dplyr::pull(material, input_value)
 interim_data <-
   interim_data |>
   dplyr::mutate(
-    # See also https://github.com/tidyverse/dplyr/issues/6856
-    material_1 = dplyr::recode(material_1, !!!mapped_material),
-    material_2 = dplyr::recode(material_2, !!!mapped_material),
-    material_3 = dplyr::recode(material_3, !!!mapped_material),
-    material_4 = dplyr::recode(material_4, !!!mapped_material),
-    material_5 = dplyr::recode(material_5, !!!mapped_material)
+    material_1 = dplyr::recode_values(
+      material_1,
+      from = material$input_value,
+      to = material$mapped_value
+    ),
+    material_2 = dplyr::recode_values(
+      material_2,
+      from = material$input_value,
+      to = material$mapped_value
+    ),
+    material_3 = dplyr::recode_values(
+      material_3,
+      from = material$input_value,
+      to = material$mapped_value
+    ),
+    material_4 = dplyr::recode_values(
+      material_4,
+      from = material$input_value,
+      to = material$mapped_value
+    ),
+    material_5 = dplyr::recode_values(
+      material_5,
+      from = material$input_value,
+      to = material$mapped_value
+    )
   )
 
 # Concatenate values (unique, sorted, no NA)
