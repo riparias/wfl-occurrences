@@ -92,6 +92,7 @@ test_that("samplingProtocol has expected material values", {
 
 test_that("scientificName has expected values", {
   expected_species <- c(
+    "Alopochen aegyptiaca",
     "Branta canadensis",
     "Heracleum mantegazzianum",
     "Hydrocotyle ranunculoides",
