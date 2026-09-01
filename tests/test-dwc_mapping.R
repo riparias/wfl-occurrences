@@ -94,6 +94,7 @@ test_that("scientificName has expected values", {
   expected_species <- c(
     "Alopochen aegyptiaca",
     "Branta canadensis",
+    "Datura stramonium",
     "Heracleum mantegazzianum",
     "Hydrocotyle ranunculoides",
     "Impatiens glandulifera",
