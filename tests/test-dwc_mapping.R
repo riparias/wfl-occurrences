@@ -48,7 +48,7 @@ test_that("occurrenceID is unique", {
 test_that("samplingProtocol has expected material values", {
   expected_material <- c(
     "bins and tubes",
-    # "cage",
+    "cage",
     # "camera trap",
     # "chemical control",
     "clamp",
